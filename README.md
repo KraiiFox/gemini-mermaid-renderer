@@ -25,7 +25,7 @@ A simple extension for chrome/firefox that takes mermaid codeblocks and renders 
 - idk 
 
 ## Installation:
-Nagivate to the folder for your browser and clone/download the repo
+Clone / Download the repo and nagivate to your respective browser. Then:
 
 ### Firefox:
 1. Navigate to about:debugging
