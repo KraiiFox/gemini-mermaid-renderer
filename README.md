@@ -39,3 +39,10 @@ Download or clone repo.
 2. Enable developer mode
 3. Load unpacked
 4. Select the folder
+
+
+## Attributions
+This extension uses the following open-source libraries:
+- [mermaid.js](https://github.com/mermaid-js/mermaid)
+- [panzoom](https://github.com/timmywil/panzoom)
+
