@@ -20,7 +20,6 @@ A simple extension for chrome/firefox that takes mermaid codeblocks and renders 
 ![image](https://github.com/user-attachments/assets/d6bac690-81bc-44b5-9e12-b2efb5e33be5)
 
 ## Known issue:
-- Uses manifest v2
 - Sometimes the AI will generate brackets `()` in the text for the nodes which will cause mermaid to throw syntax errors, not much I can do about that.
 - idk 
 
