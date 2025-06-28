@@ -1,10 +1,15 @@
 Use at your own risk, this shit is entirely AI generated. 🦊
 
 ## What it is:
-Extension that automatically renders any mermaid codeblocks from [Gemini](https://gemini.google.com) or [AI Studio](https://aistudio.google.com/).
+A simple extension for chrome/firefox that takes mermaid codeblocks and renders it using mermaid.js
+### Supported sites:
+- https://gemini.google.com
+- https://aistudio.google.com
+
 ### Features:
 - Download generated diagram as SVG.
 - Toggle between code and diagram view.
+- Panning and zooming
 - Handles syntax errors by defaulting to code view.
 
 ## Screenshots:
@@ -34,3 +39,10 @@ Download or clone repo.
 2. Enable developer mode
 3. Load unpacked
 4. Select the folder
+
+
+## Attributions
+This extension uses the following open-source libraries:
+- [mermaid.js](https://github.com/mermaid-js/mermaid)
+- [panzoom](https://github.com/timmywil/panzoom)
+
