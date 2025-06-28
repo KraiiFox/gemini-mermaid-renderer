@@ -1,9 +1,13 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Gemini Mermaid Diagram Renderer",
   "version": "1.7",
   "description": "Automatically renders Mermaid code blocks on gemini.google.com and aistudio.google.com.",
   "author": "Fox",
+  "host_permissions": [
+    "https://gemini.google.com/*",
+    "https://aistudio.google.com/*"
+  ],
   "content_scripts": [
     {
       "matches": [
@@ -18,5 +22,8 @@
       "run_at": "document_end"
     }
   ],
-  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self';"
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'unsafe-eval'; object-src 'self';",
+    "content_scripts": "script-src 'self' 'unsafe-eval'; object-src 'self';"
+  }
 }

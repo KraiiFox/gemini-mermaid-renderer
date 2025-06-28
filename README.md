@@ -20,12 +20,11 @@ A simple extension for chrome/firefox that takes mermaid codeblocks and renders 
 ![image](https://github.com/user-attachments/assets/d6bac690-81bc-44b5-9e12-b2efb5e33be5)
 
 ## Known issue:
-- Uses manifest v2
 - Sometimes the AI will generate brackets `()` in the text for the nodes which will cause mermaid to throw syntax errors, not much I can do about that.
 - idk 
 
 ## Installation:
-Download or clone repo.
+Clone / Download the repo and nagivate to your respective browser. Then:
 
 ### Firefox:
 1. Navigate to about:debugging
@@ -39,6 +38,7 @@ Download or clone repo.
 2. Enable developer mode
 3. Load unpacked
 4. Select the folder
+5. Done
 
 
 ## Attributions
