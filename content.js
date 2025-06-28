@@ -76,9 +76,32 @@
     }
 
     const mermaidDiagramTypes = [
-        'graph', 'flowchart', 'sequenceDiagram', 'classDiagram', 'stateDiagram', 'erDiagram',
-        'gantt', 'pie', 'gitGraph', 'journey', 'mindmap', 'timeline', 'quadrantChart',
-        'requirementDiagram', 'C4Context', 'block-diagram'
+        "graph TD",
+        "sequenceDiagram",
+        "classDiagram",
+        "flowchart",
+        "stateDiagram",
+        "stateDiagram-v2",
+        "erDiagram",
+        "journey",
+        "gantt",
+        "pie",
+        "quadrantChart",
+        "requirementDiagram",
+        "gitGraph",
+        "C4Context",
+        "C4Container",
+        "C4Component",
+        "C4Dynamic",
+        "packet-beta",
+        "C4Deployment",
+        "mindmap",
+        "timeline",
+        "zenuml",
+        "xychart-beta",
+        "block-beta",
+        "radar-beta",
+        "sankey-beta",
     ];
 
     function isMermaidCode(textContent) {
