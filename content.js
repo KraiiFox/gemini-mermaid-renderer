@@ -1,7 +1,6 @@
 (function() {
     'use strict';
 
-    // Inject CSS for styling the controls and wrapper
     const style = document.createElement('style');
     style.textContent = `
         .mermaid-output-wrapper {
@@ -123,7 +122,7 @@
                         const codeBlockParent = codeBlock.closest('code-block, ms-code-block');
                         if (!codeBlockParent) {
                             console.warn('Could not find a suitable parent (<code-block> or <ms-code-block>) for Mermaid code. Skipping.');
-                            codeBlock.dataset.mermaidProcessed = 'true'; // Mark as processed to avoid retries
+                            codeBlock.dataset.mermaidProcessed = 'true';
                             continue;
                         }
 
@@ -188,7 +187,7 @@
 
                         mermaidWrapper.appendChild(controlsDiv);
                         codeBlockParent.replaceWith(mermaidWrapper);
-                        codeBlock.dataset.mermaidProcessed = 'true'; // Mark original block (though it's now detached)
+                        codeBlock.dataset.mermaidProcessed = 'true';
                         console.log('Mermaid diagram rendered successfully.');
 
                     } catch (error) {
